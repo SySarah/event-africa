@@ -50,7 +50,7 @@
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <img src="<?php echo site_url('resources/img/user2-160x160.jpg');?>" class="user-image" alt="User Image">
-                                    <span class="hidden-xs">Alexander Pierce</span>
+                                    <span class="hidden-xs">Shidory</span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <!-- User image -->
@@ -58,7 +58,7 @@
                                         <img src="<?php echo site_url('resources/img/user2-160x160.jpg');?>" class="img-circle" alt="User Image">
 
                                     <p>
-                                        Alexander Pierce - Web Developer
+                                        Shidory
                                         <small>Member since Nov. 2012</small>
                                     </p>
                                     </li>
@@ -87,21 +87,21 @@
                             <img src="<?php echo site_url('resources/img/user2-160x160.jpg');?>" class="img-circle" alt="User Image">
                         </div>
                         <div class="pull-left info">
-                            <p>Alexander Pierce</p>
+                            <p>Shidory</p>
                             <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
                         </div>
                     </div>
                     <!-- sidebar menu: : style can be found in sidebar.less -->
                     <ul class="sidebar-menu">
-                        <li class="header">MAIN NAVIGATION</li>
+                        <li class="header">MENU PRINCIPAL</li>
                         <li>
                             <a href="<?php echo site_url();?>">
-                                <i class="fa fa-tachometer-alt"></i> <span>Dashboard</span>
+                                <i class="fa fa-tachometer-alt"></i> <span> Dashboard</span>
                             </a>
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-user-shield"></i> <span>Admin</span>
+                                <i class="fa fa-user-shield"></i> <span> Admin</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -114,7 +114,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-info-circle"></i> <span>Detailfood</span>
+                                <i class="fa fa-info-circle"></i> <span> Detailfood</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -127,7 +127,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-calendar-alt"></i> <span>Event</span>
+                                <i class="fa fa-calendar-alt"></i> <span> Event</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -140,7 +140,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-hamburger"></i> <span>Food</span>
+                                <i class="fa fa-hamburger"></i> <span> Food</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -153,7 +153,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-map-marker-alt"></i><span>Lieux</span>
+                                <i class="fa fa-map-marker-alt"></i><span> Lieux</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -166,7 +166,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-user"></i> <span>Participant</span>
+                                <i class="fa fa-user"></i> <span> Participant</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -179,7 +179,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-chair"></i> <span>Place</span>
+                                <i class="fa fa-chair"></i> <span> Place</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -192,7 +192,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-hands-helping"></i> <span>Sponsor</span>
+                                <i class="fa fa-hands-helping"></i> <span> Sponsor</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
