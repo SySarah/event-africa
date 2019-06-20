@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="<?php echo site_url('resources/css/bootstrap.min.css');?>">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="<?php echo site_url('resources/css/font-awesome.min.css');?>">
+        <link rel="stylesheet" href="<?php echo site_url('resources/css/all.min.css');?>">
         <!-- QuickSand -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand&display=swap">
         <!-- Ionicons -->
@@ -95,12 +96,12 @@
                         <li class="header">MAIN NAVIGATION</li>
                         <li>
                             <a href="<?php echo site_url();?>">
-                                <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                                <i class="fa fa-tachometer-alt"></i> <span>Dashboard</span>
                             </a>
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-desktop"></i> <span>Admin</span>
+                                <i class="fa fa-user-shield"></i> <span>Admin</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -113,7 +114,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-desktop"></i> <span>Detailfood</span>
+                                <i class="fa fa-info-circle"></i> <span>Detailfood</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -126,7 +127,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-desktop"></i> <span>Event</span>
+                                <i class="fa fa-calendar-alt"></i> <span>Event</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -139,7 +140,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-desktop"></i> <span>Food</span>
+                                <i class="fa fa-hamburger"></i> <span>Food</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -152,7 +153,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-desktop"></i> <span>Lieux</span>
+                                <i class="fa fa-map-marker-alt"></i><span>Lieux</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -165,7 +166,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-desktop"></i> <span>Participant</span>
+                                <i class="fa fa-user"></i> <span>Participant</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -178,7 +179,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-desktop"></i> <span>Place</span>
+                                <i class="fa fa-chair"></i> <span>Place</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -191,7 +192,7 @@
                         </li>
 						<li>
                             <a href="#">
-                                <i class="fa fa-desktop"></i> <span>Sponsor</span>
+                                <i class="fa fa-hands-helping"></i> <span>Sponsor</span>
                             </a>
                             <ul class="treeview-menu">
 								<li class="active">
@@ -263,5 +264,6 @@
         <script src="<?php echo site_url('resources/js/moment.js');?>"></script>
         <script src="<?php echo site_url('resources/js/bootstrap-datetimepicker.min.js');?>"></script>
         <script src="<?php echo site_url('resources/js/global.js');?>"></script>
+        <script src="<?php echo site_url('resources/js/all.min.js');?>"></script>
     </body>
 </html>
