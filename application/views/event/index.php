@@ -10,8 +10,7 @@
             <div class="box-body">
                 <table class="table table-striped">
                     <tr>
-						<th>Id Event</th>
-						<th>State</th>
+						<th>#</th>
 						<th>Id Lieu</th>
 						<th>Id Sponsor</th>
 						<th>Nom Event</th>
@@ -28,7 +27,6 @@
                     <?php foreach($events as $e){ ?>
                     <tr>
 						<td><?php echo $e['id_event']; ?></td>
-						<td><?php echo $e['state']; ?></td>
 						<td><?php echo $e['id_lieu']; ?></td>
 						<td><?php echo $e['id_sponsor']; ?></td>
 						<td><?php echo $e['nom_event']; ?></td>
@@ -41,7 +39,7 @@
 						<td><?php echo $e['prix_participation']; ?></td>
 						<td><?php echo $e['createAt']; ?></td>
 						<td>
-                            <a href="<?php echo site_url('event/edit/'.$e['id_event']); ?>" class="btn btn-info btn-xs"><span class="fa fa-pencil"></span> Edit</a> 
+                            <a href="<?php echo site_url('event/edit/'.$e['id_event']); ?>" class="btn btn-info btn-xs"><span class="fas fa-pencil-alt"></span> Edit</a> 
                             <a href="<?php echo site_url('event/remove/'.$e['id_event']); ?>" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span> Delete</a>
                         </td>
                     </tr>

@@ -10,8 +10,7 @@
             <div class="box-body">
                 <table class="table table-striped">
                     <tr>
-						<th>Id Sponsor</th>
-						<th>State</th>
+						<th>#</th>
 						<th>Nom Sponsor</th>
 						<th>Logo Sponsor</th>
 						<th>CreateAt</th>
@@ -20,12 +19,11 @@
                     <?php foreach($sponsors as $s){ ?>
                     <tr>
 						<td><?php echo $s['id_sponsor']; ?></td>
-						<td><?php echo $s['state']; ?></td>
 						<td><?php echo $s['nom_sponsor']; ?></td>
 						<td><?php echo $s['logo_sponsor']; ?></td>
 						<td><?php echo $s['createAt']; ?></td>
 						<td>
-                            <a href="<?php echo site_url('sponsor/edit/'.$s['id_sponsor']); ?>" class="btn btn-info btn-xs"><span class="fa fa-pencil"></span> Edit</a> 
+                            <a href="<?php echo site_url('sponsor/edit/'.$s['id_sponsor']); ?>" class="btn btn-info btn-xs"><span class="fas fa-pencil-alt"></span> Edit</a> 
                             <a href="<?php echo site_url('sponsor/remove/'.$s['id_sponsor']); ?>" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span> Delete</a>
                         </td>
                     </tr>

@@ -10,8 +10,7 @@
             <div class="box-body">
                 <table class="table table-striped">
                     <tr>
-						<th>Id Participant</th>
-						<th>State</th>
+						<th>#</th>
 						<th>Id Event</th>
 						<th>Nom Participant</th>
 						<th>Telephone Participant</th>
@@ -22,14 +21,13 @@
                     <?php foreach($participants as $p){ ?>
                     <tr>
 						<td><?php echo $p['id_participant']; ?></td>
-						<td><?php echo $p['state']; ?></td>
 						<td><?php echo $p['id_event']; ?></td>
 						<td><?php echo $p['nom_participant']; ?></td>
 						<td><?php echo $p['telephone_participant']; ?></td>
 						<td><?php echo $p['email_participant']; ?></td>
 						<td><?php echo $p['createAt']; ?></td>
 						<td>
-                            <a href="<?php echo site_url('participant/edit/'.$p['id_participant']); ?>" class="btn btn-info btn-xs"><span class="fa fa-pencil"></span> Edit</a> 
+                            <a href="<?php echo site_url('participant/edit/'.$p['id_participant']); ?>" class="btn btn-info btn-xs"><span class="fas fa-pencil-alt"></span> Edit</a> 
                             <a href="<?php echo site_url('participant/remove/'.$p['id_participant']); ?>" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span> Delete</a>
                         </td>
                     </tr>

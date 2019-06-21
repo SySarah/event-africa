@@ -8,12 +8,6 @@
 			<div class="box-body">
 				<div class="row clearfix">
 					<div class="col-md-6">
-						<div class="form-group">
-							<input type="checkbox" name="state" value="1" <?php echo ($sponsor['state']==1 ? 'checked="checked"' : ''); ?> id='state' />
-							<label for="state" class="control-label">State</label>
-						</div>
-					</div>
-					<div class="col-md-6">
 						<label for="nom_sponsor" class="control-label"><span class="text-danger">*</span>Nom Sponsor</label>
 						<div class="form-group">
 							<input type="text" name="nom_sponsor" value="<?php echo ($this->input->post('nom_sponsor') ? $this->input->post('nom_sponsor') : $sponsor['nom_sponsor']); ?>" class="form-control" id="nom_sponsor" />

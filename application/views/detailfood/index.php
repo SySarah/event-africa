@@ -27,7 +27,7 @@
 						<td><?php echo $d['createAt']; ?></td>
 						<td><?php echo $d['state']; ?></td>
 						<td>
-                            <a href="<?php echo site_url('detailfood/edit/'.$d['id_lieu']); ?>" class="btn btn-info btn-xs"><span class="fa fa-pencil"></span> Edit</a> 
+                            <a href="<?php echo site_url('detailfood/edit/'.$d['id_lieu']); ?>" class="btn btn-info btn-xs"><span class="fas fa-pencil-alt"></span> Edit</a> 
                             <a href="<?php echo site_url('detailfood/remove/'.$d['id_lieu']); ?>" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span> Delete</a>
                         </td>
                     </tr>

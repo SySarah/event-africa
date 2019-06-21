@@ -8,12 +8,6 @@
           	<div class="box-body">
           		<div class="row clearfix">
 					<div class="col-md-6">
-						<div class="form-group">
-							<input type="checkbox" name="state" value="1"  id="state" />
-							<label for="state" class="control-label">State</label>
-						</div>
-					</div>
-					<div class="col-md-6">
 						<label for="name_catfood" class="control-label"><span class="text-danger">*</span>Name Catfood</label>
 						<div class="form-group">
 							<input type="text" name="name_catfood" value="<?php echo $this->input->post('name_catfood'); ?>" class="form-control" id="name_catfood" />

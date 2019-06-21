@@ -8,12 +8,6 @@
 			<div class="box-body">
 				<div class="row clearfix">
 					<div class="col-md-6">
-						<div class="form-group">
-							<input type="checkbox" name="state" value="1" <?php echo ($paiement['state']==1 ? 'checked="checked"' : ''); ?> id='state' />
-							<label for="state" class="control-label">State</label>
-						</div>
-					</div>
-					<div class="col-md-6">
 						<label for="id_reservation" class="control-label">Reservation</label>
 						<div class="form-group">
 							<select name="id_reservation" class="form-control">

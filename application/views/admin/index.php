@@ -10,8 +10,8 @@
             <div class="box-body">
                 <table class="table table-striped">
                     <tr>
-						<th>Id Admin</th>
-						<th>Password Admin</th>
+						<th>#</th>
+						<!-- <th>Password Admin</th> -->
 						<th>Nom Admin</th>
 						<th>Login Admin</th>
 						<th>Email Admin</th>
@@ -22,14 +22,14 @@
                     <?php foreach($admins as $a){ ?>
                     <tr>
 						<td><?php echo $a['id_admin']; ?></td>
-						<td><?php echo $a['password_admin']; ?></td>
+						<!-- <td><?php //echo $a['password_admin']; ?></td> -->
 						<td><?php echo $a['nom_admin']; ?></td>
 						<td><?php echo $a['login_admin']; ?></td>
 						<td><?php echo $a['email_admin']; ?></td>
 						<td><?php echo $a['createAt']; ?></td>
 						<td><?php echo $a['state']; ?></td>
 						<td>
-                            <a href="<?php echo site_url('admin/edit/'.$a['id_admin']); ?>" class="btn btn-info btn-xs"><span class="fa fa-pencil"></span> Edit</a> 
+                            <a href="<?php echo site_url('admin/edit/'.$a['id_admin']); ?>" class="btn btn-info btn-xs"><span class="fas fa-pencil-alt"></span> Edit</a> 
                             <a href="<?php echo site_url('admin/remove/'.$a['id_admin']); ?>" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span> Delete</a>
                         </td>
                     </tr>

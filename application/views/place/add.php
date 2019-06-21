@@ -8,13 +8,6 @@
           	<div class="box-body">
           		<div class="row clearfix">
 					<div class="col-md-6">
-						<div class="form-group">
-							<input type="checkbox" name="state" value="1"  id="state" />
-							<label for="state" class="control-label"><span class="text-danger">*</span>State</label>
-							<span class="text-danger"><?php echo form_error('state');?></span>
-						</div>
-					</div>
-					<div class="col-md-6">
 						<label for="createAt" class="control-label">CreateAt</label>
 						<div class="form-group">
 							<input type="text" name="createAt" value="<?php echo $this->input->post('createAt'); ?>" class="has-datetimepicker form-control" id="createAt" />
