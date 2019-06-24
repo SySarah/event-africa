@@ -112,7 +112,7 @@
                                 </li>
 							</ul>
                         </li>
-						<li>
+                        <li>
                             <a href="#">
                                 <i class="fa fa-info-circle"></i> <span>Detailfood</span>
                             </a>
